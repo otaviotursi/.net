@@ -1,0 +1,12 @@
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.DAL.deps.json
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.DAL.dll
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.DAL.pdb
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.dll
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.pdb
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.csproj.AssemblyReference.cache
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.AssemblyInfoInputs.cache
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.AssemblyInfo.cs
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.csproj.CoreCompileInputs.cache
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.csproj.CopyComplete
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.dll
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.DAL\obj\Debug\netcoreapp3.1\ControleFinanceiro.DAL.pdb

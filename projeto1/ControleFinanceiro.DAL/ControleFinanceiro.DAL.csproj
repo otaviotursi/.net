@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211002012324_criacaoBandoDados.cs" />
+    <Compile Remove="Migrations\20211002012324_criacaoBandoDados.Designer.cs" />
+    <Compile Remove="Migrations\20211002012742_criacaoBandoDados.cs" />
+    <Compile Remove="Migrations\20211002012742_criacaoBandoDados.Designer.cs" />
+    <Compile Remove="Migrations\20211002015629_criacaoBandoDados.cs" />
+    <Compile Remove="Migrations\20211002015629_criacaoBandoDados.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleFinanceiro.BLL\ControleFinanceiro.BLL.csproj" />
+  </ItemGroup>
+
+</Project>

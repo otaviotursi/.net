@@ -1,0 +1,9 @@
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.deps.json
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.dll
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.pdb
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.AssemblyInfoInputs.cache
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.AssemblyInfo.cs
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.csproj.CoreCompileInputs.cache
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.dll
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.pdb
+D:\.Programacao\Udemy\.net\projeto1\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.csproj.AssemblyReference.cache
