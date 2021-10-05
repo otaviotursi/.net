@@ -308,8 +308,8 @@ namespace ControleFinanceiro.DAL.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Descricao", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "d80528e4-bd25-4001-8a6e-0bec95dc5ea5", "27dbf4b5-c652-4408-ae64-bf71e3e61734", "Administrador do sistema", "Administrador", "ADMINISTRADOR" },
-                    { "1f184cbe-a0a3-4fe4-9af4-c153ee90676c", "03199f4b-5139-44b3-adf7-26cf94b2c6e5", "Usuário do sistema", "Usuario", "USUARIO" }
+                    { "fd143650-17f6-4747-baa2-6d2293f58e07", "333fd7dc-5576-4961-9702-a4401fdbf8ce", "Administrador do sistema", "Administrador", "ADMINISTRADOR" },
+                    { "324ede68-ebfc-497b-9434-bdb1b912d5fc", "16b89807-b31a-4498-8465-045ccdb5c868", "Usuário do sistema", "Usuario", "USUARIO" }
                 });
 
             migrationBuilder.InsertData(
