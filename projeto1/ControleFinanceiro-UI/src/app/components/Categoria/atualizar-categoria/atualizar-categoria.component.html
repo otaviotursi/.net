@@ -1,7 +1,7 @@
 <div class="div-card" *ngIf="formulario">
     <mat-card>
         <mat-card-header>
-            <mat-card-title><h2>Cadastro de categorias</h2></mat-card-title>
+            <mat-card-title><h2>Atualizar a categoria | {{nomeCategoria}}</h2></mat-card-title>
         </mat-card-header>
         <form [formGroup]="formulario" (ngSubmit)="EnviarFormulario()">
             <mat-card-content>
@@ -30,7 +30,7 @@
 
             <mat-card-actions>
                 <div>
-                    <button type="submit" mat-stroked-button color="primary">Salvar</button>
+                    <button type="submit" mat-stroked-button color="primary">Atualizar</button>
                     <button  mat-stroked-button type="button" (click)="VoltarListagem()">Voltar</button>
                 </div>
             </mat-card-actions>

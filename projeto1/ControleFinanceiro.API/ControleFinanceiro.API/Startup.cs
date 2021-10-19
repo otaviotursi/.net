@@ -12,6 +12,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
 using ControleFinanceiro.DAL;
+using ControleFinanceiro.DAL.Interfaces;
+using ControleFinanceiro.DAL.Repositorio;
 using ControleFinanceiro.BLL.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,8 +32,11 @@ namespace ControleFinanceiro.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
-            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>()
-;
+            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
+
+            services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
+            services.AddScoped<ITipoRepositorio, TipoRepositorio>();
+
             services.AddCors();
             services.AddSpaStaticFiles(diretorio => {
                 diretorio.RootPath = "ControleFinanceiro-UI";

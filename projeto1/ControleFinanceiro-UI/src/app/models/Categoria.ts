@@ -3,7 +3,7 @@ import { Tipo } from "./Tipo";
 export class Categoria {
     categoriaId!: number;
     nome!: string;
-    icon!: string;
+    icone!: string;
     tipoId!: number;
     tipo!: Tipo;
 }

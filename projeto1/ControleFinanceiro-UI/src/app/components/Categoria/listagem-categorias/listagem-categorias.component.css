@@ -24,3 +24,12 @@
     position: absolute;
     left: 5px;
 }
+
+.divAutoComplete{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divAutoCompleteInput{
+    width: 500px;
+}
