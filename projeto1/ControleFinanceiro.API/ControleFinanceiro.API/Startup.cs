@@ -16,6 +16,9 @@ using ControleFinanceiro.DAL.Interfaces;
 using ControleFinanceiro.DAL.Repositorio;
 using ControleFinanceiro.BLL.Models;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation;
+using ControleFinanceiro.API.Controllers.Validacoes;
+using FluentValidation.AspNetCore;
 
 namespace ControleFinanceiro.API
 {
@@ -37,12 +40,15 @@ namespace ControleFinanceiro.API
             services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
             services.AddScoped<ITipoRepositorio, TipoRepositorio>();
 
+            services.AddTransient<IValidator<Categoria>, CategoriaValidator>();
+
             services.AddCors();
             services.AddSpaStaticFiles(diretorio => {
                 diretorio.RootPath = "ControleFinanceiro-UI";
             });
 
             services.AddControllers()
+                .AddFluentValidation()
                 .AddJsonOptions(opcoes => {
                     opcoes.JsonSerializerOptions.IgnoreNullValues = true;
                 })

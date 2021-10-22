@@ -12,7 +12,7 @@ namespace ControleFinanceiro.BLL.Models
 
         public string Icone { get; set; }
 
-        public int Tipoid { get; set; }
+        public int tipoId { get; set; }
         public Tipo Tipo { get; set; }
 
         public virtual ICollection<Despesa> Despesas { get; set; }
